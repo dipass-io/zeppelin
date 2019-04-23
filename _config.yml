@@ -57,9 +57,9 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "DIPASS.IO <typeout> 2019"
-eventDate: "September - November, 2019"
-typeoutTextValues: '"", "Season", "Spain", "Europe", "USA"'
-typeoutFallback: "Season"
+eventDate: "First Release September - November, 2019"
+typeoutTextValues: '"Scaling","New", "The", "New", "Internet", "Season", "Spain", "Europe", "USA"'
+typeoutFallback: "Internet New Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Work with us"}
  - {permalink: "/#tickets", text: "Buy tickets"}
