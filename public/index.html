@@ -38,7 +38,20 @@
       <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
-
+    
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC980uADZhb7-xzcQVX3tADxV-Ll9Q0iS8",
+    authDomain: "dipassio-kyc.firebaseapp.com",
+    databaseURL: "https://dipassio-kyc.firebaseio.com",
+    projectId: "dipassio-kyc",
+    storageBucket: "dipassio-kyc.appspot.com",
+    messagingSenderId: "10087190157"
+  };
+  firebase.initializeApp(config);
+</script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
