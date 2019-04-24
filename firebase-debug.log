@@ -1,0 +1,25 @@
+[debug] [2019-04-24T17:17:12.188Z] ----------------------------------------------------------------------
+[debug] [2019-04-24T17:17:12.191Z] Command:       /usr/local/Cellar/node/11.12.0/bin/node /usr/local/bin/firebase init
+[debug] [2019-04-24T17:17:12.191Z] CLI Version:   6.7.1
+[debug] [2019-04-24T17:17:12.191Z] Platform:      darwin
+[debug] [2019-04-24T17:17:12.191Z] Node Version:  v11.12.0
+[debug] [2019-04-24T17:17:12.204Z] Time:          Wed Apr 24 2019 19:17:12 GMT+0200 (hora de verano de Europa central)
+[debug] [2019-04-24T17:17:12.204Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-24T17:17:12.215Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-24T17:17:12.215Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ignspace/Documents/GitHub/pink/zeppelin
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
