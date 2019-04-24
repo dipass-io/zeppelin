@@ -13,16 +13,11 @@
     "source": "functions"
   },
   "hosting": {
-    "public": "public",
+    "public": "zeppelin",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
-      "Gemfile",
-      "Gemfile.lock",
-      "Rakefile",
-      "CNAME",
-      "README.md"
+      "**/node_modules/**"
     ]
   },
   "storage": {
