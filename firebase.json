@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "tortilla",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
