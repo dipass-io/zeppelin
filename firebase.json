@@ -17,13 +17,12 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+      "**/node_modules/**",
+      "Gemfile",
+      "Gemfile.lock",
+      "Rakefile",
+      "CNAME",
+      "README.md"
     ]
   },
   "storage": {

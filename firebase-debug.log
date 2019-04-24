@@ -1,0 +1,37 @@
+[debug] [2019-04-23T22:16:34.833Z] ----------------------------------------------------------------------
+[debug] [2019-04-23T22:16:34.842Z] Command:       /Users/ignspace/.nvm/versions/node/v8.3.0/bin/node /Users/ignspace/.nvm/versions/node/v8.3.0/bin/firebase serve
+[debug] [2019-04-23T22:16:34.843Z] CLI Version:   6.7.1
+[debug] [2019-04-23T22:16:34.843Z] Platform:      darwin
+[debug] [2019-04-23T22:16:34.843Z] Node Version:  v8.3.0
+[debug] [2019-04-23T22:16:34.845Z] Time:          Wed Apr 24 2019 00:16:34 GMT+0200 (CEST)
+[debug] [2019-04-23T22:16:34.845Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-23T22:16:34.876Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-23T22:16:34.877Z] > authorizing via signed-in user
+[debug] [2019-04-23T22:16:34.878Z] [iam] checking project dipassio-kyc for permissions ["firebase.projects.get"]
+[debug] [2019-04-23T22:16:34.884Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-23T22:16:34.885Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-23T22:16:35.287Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-23T22:16:35.326Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dipassio-kyc:testIamPermissions  
+
+[debug] [2019-04-23T22:16:36.185Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-23T22:16:36.190Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dipassio-kyc  
+ 
+[debug] [2019-04-23T22:16:37.044Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ignspace/Documents/GitHub/pink/zeppelin'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-23T22:16:39.500Z] Fetching environment
+[debug] [2019-04-23T22:16:39.509Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/10087190157:getServerAppConfig  
+ 
+[debug] [2019-04-23T22:16:39.510Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/10087190157/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-23T22:16:39.766Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-23T22:16:39.768Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-23T22:16:39.853Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-23T22:16:45.574Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
